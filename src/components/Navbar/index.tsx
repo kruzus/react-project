@@ -10,6 +10,7 @@ import React from 'react';
 import { Root } from '@components/Root';
 import { Feed } from '@components/Feed';
 import { Users } from '@components/Users';
+import { Heading } from '@shared/Header';
 
 import './style.scss';
 
@@ -55,7 +56,9 @@ function NoMatch() {
   let location = useLocation();
   return (
     <>
-      No match for <code>{location.pathname}</code>
+      <Heading className="noselect">
+        No match for <code>{location.pathname}</code>
+      </Heading>
     </>
   );
 }
