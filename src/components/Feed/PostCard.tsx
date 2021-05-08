@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-
+import { AvatarSmall as Tiny } from '@shared/MiniAvatar';
 import Chip from '@material-ui/core/Chip';
 
 const useStyles = makeStyles({
@@ -24,7 +24,15 @@ export function MediaCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        
+        <Tiny
+          user={{
+            email: 'email.adapwdk.awdkawd',
+            firstName: 'Koskapowkd',
+            lastName: 'kapwokdpawd',
+            picture:
+              'https://randomuser.me/api/portraits/women/32.jpg',
+          }}
+        />
 
         <CardMedia
           className={classes.media}
@@ -49,7 +57,6 @@ export function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Chip label="Basic" />
-       
       </CardActions>
     </Card>
   );
