@@ -1,6 +1,5 @@
 import React from 'react';
 import { Wrapper } from '@shared/Wrapper';
-//lol
 import { MediaCard } from '@components/Feed/PostCard';
 import { Container } from '@shared/Container';
 import { Heading } from '@shared/Header';
