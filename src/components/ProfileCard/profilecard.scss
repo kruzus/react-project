@@ -1,0 +1,46 @@
+.profilecard {
+  border: 1px solid black;
+  padding: 10px;
+
+  word-wrap: break-word;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  .avatar {
+    width: 128px;
+    //Making image not movable + setting radius
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+  }
+}
+
+.userContent {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .profilecard {
+    display: flex;
+    word-wrap: break-word;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    .avatar {
+      width: 70px;
+    }
+
+    .fullinfo {
+      font-size: 2em;
+    }
+    .email {
+      align-self: center;
+    }
+  }
+}
