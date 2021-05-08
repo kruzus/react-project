@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { Avatar, Divider } from '@material-ui/core';
+
 import Chip from '@material-ui/core/Chip';
 
 const useStyles = makeStyles({
@@ -24,7 +24,7 @@ export function MediaCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        
 
         <CardMedia
           className={classes.media}
@@ -49,8 +49,7 @@ export function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Chip label="Basic" />
-        <Divider orientation="vertical" flexItem />
-        awd
+       
       </CardActions>
     </Card>
   );
