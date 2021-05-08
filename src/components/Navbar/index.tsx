@@ -18,7 +18,7 @@ export const Navbar = () => {
     <>
       <Router>
         <nav className="navcont noselect">
-          <h3 className="logo">GitPet</h3>
+          <h3 className="logo">Skoozles!</h3>
           <div className="links">
             <Link className="item" to="/">
               Home
