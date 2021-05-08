@@ -1,19 +1,15 @@
 const API_ENDPOINT = "https://localbitcoins.com/bitcoinaverage/ticker-all-currencies/"
+import {Handler} from "@netlify/functions"
 
-exports.handler = async (event, context) => {
+
+export const handler: Handler = async (event, context) => {
 
   return fetch(API_ENDPOINT)
     .then(response => response.json())
     .then(data => {
-      console.log(data)
+     
       try {
-        return {
-          statusCode: 200,
-          body: JSON.stringify({currencies: {
-
-            }
-          }, null, 2)
-        }
+        console.log(data)
       } catch (error) {
         return {
           statusCode: 400,

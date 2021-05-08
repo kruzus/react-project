@@ -1,0 +1,7 @@
+[functions]
+    directory = "netlify/functions"
+
+[build]
+    CI = "yarn build"
+    NODE_ENV= "development"
+    NODE_VERSION = "14.16.0"

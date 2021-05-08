@@ -8,11 +8,12 @@ import './style.scss';
 export const Users = () => {
   const [loading, setLoading] = useState(false);
   const [users, setUsers] = useState<User[]>([]);
+  const [data, setData] = useState<any>([])
   const handleClick = () => {
     fetch("../../../netlify/functions/hello")
-    .then(data => {console.log(data)})
+    .then(data => setData(data))
     .catch(e => {console.error(e)})
-    .finally(() => {console.log("finished")})
+    .finally(() => console.log(data))
   }
   useEffect(() => {
     setLoading(true);
