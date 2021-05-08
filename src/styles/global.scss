@@ -12,22 +12,23 @@ $main_font: 'Roboto', sans-serif;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 9px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #7e7e7e;
+ display: none;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(92, 92, 92);
+  background: rgb(110, 108, 255);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(29, 29, 29);
+  
 }
 
 body {

@@ -5,6 +5,7 @@
         "@components/*": ["src/components/*"],
         "@shared/*":["src/shared/*"],
         "@styles/*":["src/styles/*"],
+        "@lambda": ["netlify/functions/*"]
       }
     }
   }

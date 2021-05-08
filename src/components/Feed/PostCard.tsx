@@ -26,9 +26,9 @@ export function MediaCard() {
       <CardActionArea>
         <Tiny
           user={{
-            email: 'email.adapwdk.awdkawd',
-            firstName: 'Koskapowkd',
-            lastName: 'kapwokdpawd',
+            email: 'email.adapwdk.awdkawdaaa',
+            firstName: 'Koskapowkdaaaaaaaaaa',
+            lastName: 'kapwokdpawdaaaaaaaaaa',
             picture:
               'https://randomuser.me/api/portraits/women/32.jpg',
           }}

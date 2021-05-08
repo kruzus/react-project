@@ -5,6 +5,7 @@ const {alias, aliasJest} = require('react-app-rewire-alias')
     '@components': 'src/components',
     '@shared': 'src/shared',
     '@styles': 'src/styles',
+    '@lambda': 'netlify/functions'
   }
 
   module.exports = alias(aliasMap)
