@@ -4,10 +4,10 @@ import { Avatar } from '@shared/Avatar';
 import './profilecard.scss';
 
 export type ProfileProps = {
-  user: User;
+  user: UserAvatar;
 };
 
-export type User = {
+export type UserAvatar = {
   email: string;
   firstName: string;
   id?: string;

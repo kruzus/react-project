@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ProfileCard, User } from '@components/ProfileCard';
+import { ProfileCard, UserAvatar as User } from '@components/ProfileCard';
 import { ThreeDots as Loader } from '@shared/Loader';
 import './style.scss';
 

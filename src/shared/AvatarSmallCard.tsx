@@ -12,7 +12,6 @@ export const AvatarSmall = (props: AvatarMiniProp) => {
     return(
         <>
         <Avatar alt="Remy Sharp" className="noselect" src="https://randomuser.me/api/portraits/men/81.jpg" />
-        
         </>
     )
 }
