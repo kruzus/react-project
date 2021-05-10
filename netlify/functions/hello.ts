@@ -1,21 +1,10 @@
-const API_ENDPOINT = "https://localbitcoins.com/bitcoinaverage/ticker-all-currencies/"
+const API_ENDPOINT = "https://loca5lbitcoins.com/bitcoinaverage/ticker3-all-currencies/"
 import {Handler} from "@netlify/functions"
+import axios from "axios"
 
+export const handler = async (event, context) => {
+return axios.get(API_ENDPOINT)
+.then(data => {console.log(data)})
+.catch(e => {console.error(e)})
 
-export const handler: Handler = async (event, context) => {
-
-  return fetch(API_ENDPOINT)
-    .then(response => response.json())
-    .then(data => {
-     
-      try {
-        console.log(data)
-      } catch (error) {
-        return {
-          statusCode: 400,
-          body: error
-        }
-      }
-    })
-    .catch(error => ({ statusCode: 422, body: String(error) }));
 };
