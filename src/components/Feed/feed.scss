@@ -4,9 +4,9 @@
   padding: 10px;
   display: flex;
   font-size: 1rem;
-
-  // justify-content: space-between;
-  // align-items: center;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  align-items: center;
 
   img {
     -webkit-border-radius: 100px;
@@ -17,23 +17,15 @@
 
   .name {
     font-size: 2em;
-    
   }
 
   .email {
     color: rgb(116, 116, 116);
-    
   }
 
   .userInfo {
-  
     display: flex;
-    
-    flex-wrap: wrap;
-   
-    border: 1px solid black;
-    
 
+    border: 1px solid pink;
   }
 }
-

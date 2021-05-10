@@ -11,7 +11,7 @@ import Chip from '@material-ui/core/Chip';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 445,
+    maxWidth: 450,
   },
   media: {
     height: 350,
@@ -20,19 +20,16 @@ const useStyles = makeStyles({
 
 export function MediaCard() {
   const classes = useStyles();
-
+  const fakeData = {
+    email: 'lmao@koo.com',
+    firstName: 'Jessie',
+    lastName: 'Kaprowksi',
+    picture: 'https://randomuser.me/api/portraits/women/32.jpg',
+  };
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <Tiny
-          user={{
-            email: 'lmao@koo.com',
-            firstName: 'Jessie',
-            lastName: 'Kaprowksi',
-            picture:
-              'https://randomuser.me/api/portraits/women/32.jpg',
-          }}
-        />
+        <Tiny user={fakeData} />
         {console.log(classes.media)}
         <CardMedia
           className={classes.media}

@@ -18,8 +18,8 @@ export const AvatarSmall = (props: AvatarProp) => {
       <div className="tiny">
         <img draggable="false" src={user.picture} />
         <div className="userInfo">
-        <span className="name">{`${user.firstName} ${user.lastName}`}</span>
-        <span className="email">${user.email}</span>
+          <span className="name">{`${user.firstName} ${user.lastName}`}</span>
+          <span className="email">${user.email}</span>
         </div>
       </div>
     </>
