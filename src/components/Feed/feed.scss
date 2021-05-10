@@ -12,23 +12,28 @@
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    width: 50px;
+    width: 10%;
   }
 
   .name {
-    font-size: 1rem !important;
+    font-size: 2em;
     
   }
 
   .email {
     color: rgb(116, 116, 116);
+    
   }
 
   .userInfo {
-    border: 1px solid black;
+  
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    
+    flex-wrap: wrap;
+   
+    border: 1px solid black;
+    
+
   }
 }
 

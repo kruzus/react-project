@@ -26,14 +26,14 @@ export function MediaCard() {
       <CardActionArea>
         <Tiny
           user={{
-            email: 'email.adapwdk.awdkawdaaa',
-            firstName: 'Koskapowkdaaaaaaaaaa',
-            lastName: 'kapwokdpawdaaaaaaaaaa',
+            email: 'lmao@koo.com',
+            firstName: 'Jessie',
+            lastName: 'Kaprowksi',
             picture:
               'https://randomuser.me/api/portraits/women/32.jpg',
           }}
         />
-
+        {console.log(classes.media)}
         <CardMedia
           className={classes.media}
           image="https://i.imgur.com/4K5i7BT.jpeg"
