@@ -15,15 +15,23 @@ export const Wrapper = styled.div`
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
-  gap: 1rem;
+  
+  gap: 2rem;
   margin: 0 auto;
-
+  margin-top: 2rem;
   @media only screen and (max-width: 1200px) {
     background-color: #0b2661;
     display: flex;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
+
+    .tiny {
+      img {
+        width: 15%;
+      }
+    }
+
   }
 `;
