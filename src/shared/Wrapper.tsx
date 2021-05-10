@@ -10,7 +10,10 @@ export const Wrapper = styled.div`
   padding: 5em;
   grid-gap: 2rem; */
 
-  width: 60%;
+
+  //debug::DELETE LATER
+
+  width: 50%;
   align-items: center;
   justify-content: center;
   display: flex;

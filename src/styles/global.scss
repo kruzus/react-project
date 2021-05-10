@@ -13,6 +13,7 @@ $main_font: 'Roboto', sans-serif;
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
+  background-color: #0c3da7;
 }
 
 /* Track */
@@ -27,7 +28,7 @@ $main_font: 'Roboto', sans-serif;
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(29, 29, 29);
+  background: rgb(109, 101, 179);
 }
 
 body {

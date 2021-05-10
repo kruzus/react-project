@@ -11,10 +11,10 @@ import Chip from '@material-ui/core/Chip';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 450,
+    maxWidth: 750,
   },
   media: {
-    height: 350,
+    height: 550,
   },
 });
 

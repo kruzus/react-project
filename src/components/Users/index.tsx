@@ -11,12 +11,6 @@ export const Users = () => {
   const [loading, setLoading] = useState(false);
   const [users, setUsers] = useState<User[]>([]);
   
-  const handleClick = () => {
-    fetch("/.netlify/functions/hello")
-    .then(data => console.log(data))
-    .catch(e => {console.error(e)})
-    .finally(() => console.log("Finished"))
-  }
   useEffect(() => {
     setLoading(true);
   }, []);
