@@ -1,11 +1,8 @@
 //test
 
 type PropTypes = {
-    path: string;
-    method: string;
-}
+  path: string;
+  method: string;
+};
 
-export const Fetch = async (props: PropTypes) => {
-
-
-}
+export const Fetch = async (props: PropTypes) => {};

@@ -4,20 +4,19 @@
   padding: 10px;
   display: flex;
   font-size: 1rem;
-
-  // justify-content: space-between;
-  // align-items: center;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  align-items: center;
 
   img {
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    width: 50px;
+    width: 10%;
   }
 
   .name {
-    font-size: 1rem !important;
-    
+    font-size: 2em;
   }
 
   .email {
@@ -25,10 +24,8 @@
   }
 
   .userInfo {
-    border: 1px solid black;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+
+    border: 1px solid pink;
   }
 }
-
